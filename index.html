@@ -3,14 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mokėjimas kortele</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Mokėjimas kortele - Pagrindinis</title>
 </head>
 <body>
-    <h1>Mokėjimas kortele</h1>
+      <style>
+          *{
+              margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 10px;
+          }
+          body{
+    background-color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+}
+          .div{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 100px auto;
+}
+          .divo{
+              background-color: black;
+              color: white;
+              width: 100px;
+              height: 50px;
+              margin: 0;
+              display: inline-block;
+              border-radius: 10px;
+          }
+          .divo p{
+              color: white;
+              margin: 0;
+              font-size: 15px;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          .divo a{
+              text-decoration: none;
+              width: 100%;
+              height: 100%;
+              margin: 0;
+          }
+          .divu{
+              display: block;
+          }
+          @keyframes kortele{
+    0%{
+        margin: 10px auto;
+    }
+    50%{
+        margin: 100px auto;
+    }
+    90%{
+        margin: 100px auto;
+    }
+    100%{
+        margin: 10px auto;
+    }
+}
+    </style>
+    <h1>Sveiki atvykę!</h1>
+    <p>Mokėjimas kortele</p>
     <p>Visa, Mastercard, Maestro</p>
     <p>&copy; Kortelių apmokėjimas FINBONK Bank</p>
-    <b><p>Įkiškite kortelę</p></b>
-    <a href="pin.html" style="color: black; text-decoration: none;"><div class="div" style="background-color: lightgoldenrodyellow;"><p>Banko kortelė</p><p>VARDENIS PAVARDENIS</p><p>**** **** **** ****</p><p style="margin-top: 190px;">&copy; FINBONK Bank</p></div></a>
+    <a href="suma.html" style="color: black; text-decoration: none;"><div class="div" style="background-color: lightgoldenrodyellow;"><p>Banko kortelė</p><p>VARDENIS PAVARDENIS</p><p>**** **** **** ****</p><p style="margin-top: 190px;">&copy; FINBONK Bank</p></div></a>
 </body>
 </html>
