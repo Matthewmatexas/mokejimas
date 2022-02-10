@@ -83,11 +83,16 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    border: 10px solid azure;
+    border: 10px solid darkgray;
     border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid lightgray;
+    border-right: 10px solid lightgray;
     animation-name: sukasi;
-    animation-duration: 6s;
-    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: -20%;
 }
 .screen{
     width: 100%;
@@ -110,7 +115,7 @@
         transform: rotate(0deg);
     }
     100%{
-        transform: rotate(600deg);
+        transform: rotate(360deg);
     }
 }
 @keyframes atsiranda{
@@ -157,6 +162,5 @@
     <div class="divo"><a href="pin1.html"><p>0</p></a></div>
     <div class="divoa"><p></p></div>
     </div>
-    <div class="div" style="background-color: lightgoldenrodyellow;"><p>Banko kortelė</p><p>VARDENIS PAVARDENIS</p><p>**** **** **** ****</p><p style="margin-top: 190px;">&copy; FINBONK Bank</p></div>
 </body>
 </html>
